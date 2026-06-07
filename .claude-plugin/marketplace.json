@@ -12,7 +12,7 @@
       "name": "capnp-ls",
       "description": "Cap'n Proto language server support via an installed capnp-ls binary.",
       "version": "0.1.0",
-      "source": "./plugins/capnp-ls",
+      "source": "./plugins/claude/capnp-ls",
       "repository": "https://github.com/trickstar0301/capnp-ls",
       "license": "MIT",
       "keywords": ["capnp", "capnproto", "lsp"],

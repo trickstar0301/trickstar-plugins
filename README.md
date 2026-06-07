@@ -2,9 +2,10 @@
 
 Plugin marketplace for tools maintained by `trickstar0301`.
 
-This repository is intentionally not specific to one tool. Each plugin lives
-under `plugins/<plugin-name>`, and the marketplace catalogs list the plugins
-that Claude Code, GitHub Copilot CLI, and Codex can install.
+This repository is intentionally not specific to one tool. Agent-specific plugin
+packages live under `plugins/<agent>/<plugin-name>`, and the marketplace
+catalogs list the plugins that Claude Code, GitHub Copilot CLI, and Codex can
+install.
 
 ## Install the Marketplace
 
@@ -47,9 +48,12 @@ The plugin does not bundle the language server binary.
 .claude-plugin/marketplace.json
 .agents/plugins/marketplace.json
 plugins/
-  capnp-ls/
-    .claude-plugin/plugin.json
-    .codex-plugin/plugin.json
-    .lsp.json
-    skills/capnp-ls/SKILL.md
+  claude/
+    capnp-ls/
+      .claude-plugin/plugin.json
+      .lsp.json
+  codex/
+    capnp-ls/
+      .codex-plugin/plugin.json
+      skills/capnp-ls/SKILL.md
 ```

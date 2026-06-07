@@ -8,7 +8,7 @@
       "name": "capnp-ls",
       "source": {
         "source": "local",
-        "path": "./plugins/capnp-ls"
+        "path": "./plugins/codex/capnp-ls"
       },
       "policy": {
         "installation": "AVAILABLE",
