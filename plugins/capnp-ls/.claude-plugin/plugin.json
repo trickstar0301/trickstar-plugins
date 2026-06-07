@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "capnp-ls",
+  "displayName": "Cap'n Proto LSP",
+  "description": "Adds Cap'n Proto language server support via an installed capnp-ls binary.",
+  "version": "0.1.0",
+  "author": {
+    "name": "trickstar0301"
+  },
+  "homepage": "https://github.com/trickstar0301/capnp-ls",
+  "repository": "https://github.com/trickstar0301/capnp-ls",
+  "license": "MIT",
+  "keywords": ["capnp", "capnproto", "lsp"],
+  "lspServers": "./.lsp.json"
+}

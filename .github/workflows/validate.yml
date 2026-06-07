@@ -1,0 +1,21 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate JSON
+        run: |
+          python3 -m json.tool .claude-plugin/marketplace.json >/dev/null
+          python3 -m json.tool plugins/capnp-ls/.claude-plugin/plugin.json >/dev/null
+          python3 -m json.tool plugins/capnp-ls/.lsp.json >/dev/null
+

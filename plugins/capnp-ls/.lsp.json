@@ -1,0 +1,9 @@
+{
+  "capnp": {
+    "command": "capnp-ls",
+    "args": ["--stdio"],
+    "extensionToLanguage": {
+      ".capnp": "capnp"
+    }
+  }
+}
