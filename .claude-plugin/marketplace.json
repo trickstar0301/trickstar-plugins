@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "capnp-ls",
-      "description": "Cap'n Proto language server support via an installed capnp-ls binary.",
+      "description": "Cap'n Proto language server support via an installed capnp-ls binary. Install the binary first: curl -fsSL https://raw.githubusercontent.com/trickstar0301/capnp-ls/main/install.sh | sh",
       "version": "0.1.0",
       "source": "./plugins/claude/capnp-ls",
       "repository": "https://github.com/trickstar0301/capnp-ls",

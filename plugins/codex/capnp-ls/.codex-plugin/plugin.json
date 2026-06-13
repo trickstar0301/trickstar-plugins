@@ -1,7 +1,7 @@
 {
   "name": "capnp-ls",
   "version": "0.1.0",
-  "description": "Cap'n Proto language server guidance for Codex.",
+  "description": "Cap'n Proto language server guidance for Codex. Install the binary first: curl -fsSL https://raw.githubusercontent.com/trickstar0301/capnp-ls/main/install.sh | sh",
   "author": {
     "name": "trickstar0301"
   },
@@ -13,7 +13,7 @@
   "interface": {
     "displayName": "Cap'n Proto LSP",
     "shortDescription": "Install and configure capnp-ls from Codex.",
-    "longDescription": "Provides Codex guidance for installing capnp-ls, choosing capnp-v1 or capnp-v2 release channels, and configuring project-level .capnp-ls.json import paths. The plugin does not bundle or launch the language server binary.",
+    "longDescription": "Provides Codex guidance for installing capnp-ls, choosing capnp-v1 or capnp-v2 release channels, and configuring project-level .capnp-ls.json import paths. The plugin does not bundle or launch the language server binary. Install the binary first: curl -fsSL https://raw.githubusercontent.com/trickstar0301/capnp-ls/main/install.sh | sh",
     "developerName": "trickstar0301",
     "category": "Languages",
     "capabilities": [
